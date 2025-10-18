@@ -13,10 +13,12 @@ class SGD:
         self.alpha = alpha
 
     def zero(self):
+        """Zero out all parameter gradients."""
         for p in self.params:
             p.grad *= 0.0
-    
+
     def step(self, zero=True):
+        """Perform one optimization step."""
         for p in self.params:
             p.data -= p.grad * self.alpha
             if zero:
