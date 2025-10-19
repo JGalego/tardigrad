@@ -6,7 +6,7 @@ A small PyTorch-like autograd engine and neural network library.
 >
 > ― Zeno Alexander, The Library of Ever
 
-<img src="tardigrad.png" width="50%"/>
+<img src="https://github.com/JGalego/tardigrad/raw/main/tardigrad.png" width="50%"/>
 
 ## Features
 
